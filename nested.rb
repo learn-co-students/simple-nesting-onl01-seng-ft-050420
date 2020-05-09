@@ -12,11 +12,11 @@ def hopper
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["c"]
+        :languages => ["C"]
       }
   }
 
-             programmer_hash[:grace_hopper]
+  programmer_hash[:grace_hopper]
 end
 
 
@@ -57,6 +57,9 @@ def alan_kay_is_known_for
                     :languages => ["C"]
                   }
                }
+
+               array = programmer_hash[:dennis_ritchie][:languages]
+		 array.join
           end
 
 
@@ -84,12 +87,8 @@ programmer_hash
 end
 
 
-def changing_alan
-	programmer_hash =
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          def changing_alan
+
+       def changing_alan
           	programmer_hash =
           	programmer_hash =
            		{
@@ -112,7 +111,7 @@ def changing_alan
 
           		 programmer_hash[:alan_kay][:known_for] = alans_new_info
           		 programmer_hash
-
+end
  def adding_to_dennis
    programmer_hash =
     		{
@@ -135,5 +134,3 @@ def changing_alan
    		 programmer_hash
 
  end
-
-end
